@@ -1,0 +1,107 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.outside-box{
+	border:2px solid black;
+	height:300px;
+	width:300px;
+	margin:0 auto;
+}
+
+.inside-box{
+	height:100px;
+	width:100px;
+	background-color:red;
+}
+
+
+/* animation duration section start */
+
+.duration{
+	animation-name:dur;
+	animation-duration:5s;
+}
+
+@keyframes dur{
+	from{transform:translateX(0px);}
+	to{transform:translateX(200px);}
+}
+	
+/* animation duration section end */
+
+
+/* animation delay section start */
+
+.delay{
+	animation-name:delay;
+	animation-duration:5s;
+	animation-delay:5s;
+}
+
+@keyframes delay{
+	from{transform:translateX(0px);}
+	to{transform:translateX(200px);}
+}
+	
+/* animation delay section end */
+
+
+/* animation iteration count section start */
+
+.count{
+	animation-name:itera-count;
+	animation-duration:5s;
+	animation-iteration-count:3;
+}
+
+@keyframes itera-count{
+	from{transform:translateX(0px);}
+	to{transform:translateX(200px);}
+}
+	
+/* animation iteration count section end */	
+
+
+
+/* animation direction section start */
+
+.dir-normal{
+	animation-name:normal;
+	animation-duration:5s;
+	animation-direction:normal;
+}
+
+@keyframes normal{
+	from{transform:translateX(0px);}
+	to{transform:translateX(200px);}
+}
+
+
+.dir-reverse{
+	animation-name:reverse;
+	animation-duration:5s;
+	animation-direction:reverse;
+}
+
+@keyframes reverse{
+	from{transform:translateX(0px);}
+	to{transform:translateX(200px);}
+}
+
+
+
+.dir-alternative{
+	animation-name:alternative;
+	animation-duration:5s;
+	animation-direction:alternative;
+}
+
+@keyframes alternative{
+	from{transform:translateX(0px);}
+	to{transform:translateX(200px);}
+}
+	
+/* animation direction section end */	
